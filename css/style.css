@@ -1,3 +1,7 @@
+body img {
+    max-width: 300px;
+}
+
 .navbar img {
     max-width: 40px;
     margin-right: 30px;
@@ -7,3 +11,4 @@
 footer a {
     style: none;
 }
+
