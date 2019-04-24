@@ -1,5 +1,27 @@
-body img {
+posts img {
     max-width: 300px;
+}
+
+.macanitas {
+    width: 98.5vw;
+    max-width: 2000px;
+    max-height: 75vh;
+    height: 100%;
+    align-content: center
+}
+
+.bg_pic {
+    position: relative;
+    text-align: center;
+}
+
+.index_head {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
 }
 
 .navbar img {
