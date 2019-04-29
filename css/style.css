@@ -31,6 +31,10 @@ posts img {
     margin-left: 30px;
 }
 
+.about {
+    font-size: 1.5em;
+}
+
 footer a {
     style: none;
 }
