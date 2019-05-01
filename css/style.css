@@ -46,7 +46,7 @@ posts img {
 }
 
 .zigzag {
-    
+   max-width: 50vw; 
 }
 
 /* For skills/proficiencies learned during bootcamp on About page */
