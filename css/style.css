@@ -45,6 +45,19 @@ posts img {
     max-width: 80vw;
 }
 
+.zigzag {
+    
+}
+
+/* For skills/proficiencies learned during bootcamp on About page */
+.skills {
+    list-style: none;
+}
+.skills li:nth-child(odd) {
+    background-color: gray;
+    color: white;
+}
+
 /* Styling for footer a tags */
 footer a {
     style: none;
