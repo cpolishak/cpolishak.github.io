@@ -1,7 +1,9 @@
+/* For images in posts on index page */
 posts img {
     max-width: 300px;
 }
 
+/* For Portugal picture in vineyards on index page */
 .macanitas {
     width: 98.5vw;
     max-width: 2000px;
@@ -15,6 +17,7 @@ posts img {
     text-align: center;
 }
 
+/* For the text over the top of the portugal pic on index page */
 .index_head {
     position: absolute;
     top: 50px;
@@ -25,16 +28,24 @@ posts img {
     text-transform: uppercase; 
 }
 
+/* My logo inside of the navbar */
 .navbar img {
     max-width: 40px;
     margin-right: 30px;
     margin-left: 30px;
 }
 
+/* Info about me  */
 .about {
     font-size: 1.5em;
 }
 
+/* Sizing & such for profile pic on About page */
+.profile_pic {
+    max-width: 80vw;
+}
+
+/* Styling for footer a tags */
 footer a {
     style: none;
 }
