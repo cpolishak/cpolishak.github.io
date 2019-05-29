@@ -5,18 +5,21 @@ var images = [
 var i = 0;
 var img = document.getElementById('macanitas');
 
-function forward() {
-    i++;    
-    if(i == images.length) {
+function changeImg() {
+    img.src = images[i];
+
+    if(i < images.length - 1) {
+        i++;
+    } else {
         i = 0;
     }
-    img.src = images[i]; 
+    console.log(i);
 }
 
-function back() {
-    i--;    
-    if(i < 0) {
-        i = images.length -1;
-    }
-    img.src = images[i]; 
+setInterval(changeImg, 5000);
+
+function stopChg() {
+    // make this do a pause on an image when clicked. 
+    // when released it will allow the images to keep changing at each interval.
 }
+
