@@ -63,6 +63,12 @@ footer a {
     style: none;
 }
 
+.contactme {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
 /* For body on all pages */
 body {
     font-size: 1.25em;

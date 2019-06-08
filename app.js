@@ -1,5 +1,5 @@
 var images = [
-    "/media/macanitas.jpg", "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg"
+    "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg", "/media/macanitas.jpg"
 ];
 
 var i = 0;
