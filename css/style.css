@@ -1,6 +1,6 @@
 /* For images in posts on index page */
-posts img {
-    max-width: 300px;
+#posts img {
+    max-width: 400px;
 }
 
 /* For Portugal picture in vineyards on index page */
@@ -35,6 +35,7 @@ posts img {
     margin-left: 30px;
 }
 
+
 /* Info about me  */
 .about {
     font-size: 1.15em;
@@ -54,9 +55,44 @@ posts img {
     list-style: none;
 }
 .skills li:nth-child(odd) {
-    background-color: gray;
+    background-color: rgb(102, 142, 165);
     color: white;
 }
+
+.about-bg {
+    background-color: rgb(49,53,91)
+}
+
+
+
+/* Gallery Page */
+.gallery {
+    background-color: rgb(37, 83, 80)
+}
+
+.card-body {
+    background-color: rgb(20, 61, 58)
+}
+
+.btn-color {
+    background-color: rgb(37, 83, 80)
+}
+
+.gallery-pic {
+    max-width: 25vw
+}
+
+
+
+/* Contact Page */
+.contact-bg {
+    background-color: rgb(95, 38, 95);
+}
+
+.icons-color {
+    color: rgb(201, 6, 175);
+}
+
 
 /* Styling for footer a tags */
 footer a {
@@ -69,14 +105,16 @@ footer a {
   width: 100vw;
 }
 
+
+
 /* For body on all pages */
 body {
     font-size: 1.25em;
 }
 
 /* For styles on gallery pics */
-.card-img-top {
+/* .card-img-top {
     width: 100%;
-    height: 20vw;
+    height: 30vw;
     object-fit: cover;
-}
+} */
