@@ -7,10 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        
         <link rel="stylesheet" href="./css/style.css">
 
         <!-- ===== NAVBAR ===== -->
-        <nav class="navbar navbar-expand-md navbar-dark gallery">
+        <nav class="navbar navbar-expand-md navbar-dark gallery mb-3">
           <a href="#"><img src="./media/favicon.png" alt="logo"></a>
           <a class="navbar-brand" href="index.html">Chris Polishak</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,193 +44,93 @@
 
       <div class="text-center p-4">
         <h2>Graphic Design Gallery</h2>
-        <p>Here's a gallery of some of my works in graphic design. I will look to have some references to software development projects in the future. For now, those can be seen on my <a href="https://www.github.com/cpolishak">Github</a> page (under projects repository).</p>
+        <p>Here's a short gallery of some of my latest works in graphic design. I will look to have some references to software development projects in the future. For now, those can be seen on my <a href="https://www.github.com/cpolishak">Github</a> page (under projects repository).</p>
       </div>
 
-      <div class="row gallery align-items-center p-4" id="posts">
-        <div class="col-12 pr-4 pl-4 pt-4 text-light">
-          <h1 class="text-center pb-4">Veins Shoes</h1>
-          <p class="gallery text-center">My latest shoe design on my artist webpage @ Threadless/Bucketfeet.</p>
-        </div>
-      </div>
-      <div class="row gallery">
-        <div class="col text-center">
-          <a href=""><img src="./media/Product Image.jpg" alt="zig zag" class="zigzag col pb-4"></a>
-        </div>
-      </div>
+      <h2 style="text-align:center"></h2>
 
-      <div class="row gallery align-items-center p-4" id="posts">
-        <div class="col-12 pr-4 pl-4 pt-4 text-light">
-          <h1 class="text-center pb-4">Bicycle Backpack</h1>
-          <p class="gallery text-center">I designed a backpack that I would want to wear as a soccer fan.</p>
+      <div class="row">
+        <div class="column">
+          <img src="./media/Product Image.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
         </div>
-      </div>
-      <div class="row gallery">
-        <div class="col text-center">
-          <a href=""><img src="./media/Product Image (2).jpg" alt="Backpack" class="zigzag col pb-4"></a>
+        <div class="column">
+          <img src="./media/Product Image (2).jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./media/Dynamo Phone Background.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./media/mugen.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </div>
       </div>
 
-      <div class="row gallery align-items-center p-4" id="posts">
-        <div class="col-12 pr-4 pl-4 pt-4 text-light">
-          <h1 class="text-center pb-4">Dynamo Phone Wallpaper</h1>
-          <p class="gallery text-center">My first basic iteration of the logo I designed for my personal brand.</p>
-        </div>
-      </div>
-      <div class="row gallery">
-        <div class="col text-center">
-          <a href=""><img src="./media/Dynamo Phone Background.jpg" alt="Backpack" class="zigzag col pb-4"></a>
-        </div>
-      </div>
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
 
-      <div class="row gallery align-items-center p-4" id="posts">
-        <div class="col-12 pr-4 pl-4 pt-4 text-light">
-          <h1 class="text-center pb-4">Beer Poster</h1>
-          <p class="gallery text-center">A poster I designed paying homage to the classic Guinness beer posters.</p>
-        </div>
-      </div>
-      <div class="row gallery">
-        <div class="col text-center">
-          <a href=""><img src="./media/2nd Beer Shirt.jpg" alt="Backpack" class="zigzag col pb-4"></a>
-        </div>
-      </div>
-
-        
-      </div>
-      
-      <!-- <div class="justify-content-center"> -->
-      <!-- <div class="card-deck gallery row text-center justify-content-center p-4 pt-5"></div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/Product Image.jpg" class="card-img-top" alt="Veins Shoes">
-            <div class="card-body  text-light">
-              <h5 class="card-title">Veins Shoes</h5>
-              <p class="card-text">My latest shoe design on my artist webpage @ Threadless/Bucketfeet.</p>
-              <a href="./media/Product Image.jpg" class="btn text-light btn-color">View</a>
-            </div>
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="./media/Product Image.jpg" style="width:100%">
           </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/Product Image (2).jpg" class="card-img-top" alt="Bicycle Backpack">
-            <div class="card-body  text-light">
-                <h5 class="card-title ">Bicycle Backpack</h5>
-                <p class="card-text">I designed a backpack that I would want to wear as a soccer fan.</p>
-              <a href="./media/Product Image (2).jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/logo.png" class="card-img-top" alt="CP Logo">
-            <div class="card-body  text-light">
-                <h5 class="card-title">CP Logo</h5>
-                <p class="card-text">My first basic iteration of the logo I designed for my personal brand.</p>
-              <a href="./media/logo.png" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-      
 
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="./media/Product Image (2).jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="./media/Dynamo Phone Background.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="./media/mugen.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+
+        </div>
+      </div>
+
+              
      
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/Dynamo Phone Background.jpg" class="card-img-top" alt="Dynamo Background">
-            <div class="card-body  text-light">
-                <h5 class="card-title">Dynamo Phone Wallpaper</h5>
-                <p class="card-text">I didn't like any of the wallpapers I could find. I made my own.</p>
-              <a href="./media/Dynamo Phone Background.jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/2nd Beer Shirt.jpg" class="card-img-top" alt="Beer Poster">
-            <div class="card-body  text-light">
-                <h5 class="card-title">Beer Poster</h5>
-                <p class="card-text">A poster I designed paying homage to the classic Guinness beer posters.</p>
-              <a href="./media/2nd Beer Shirt.jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/mugen.jpg" class="card-img-top" alt="Mugen Shoes">
-            <div class="card-body  text-light">
-                <h5 class="card-title">Mugen Shoes</h5>
-                <p class="card-text">A shoe design I created as a fan of the infinity symbol.</p>
-              <a href="./media/mugen.jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-      
-
-      
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/bicycle.jpg" class="card-img-top" alt="Bicycle Kick">
-            <div class="card-body  text-light">
-                <h5 class="card-title">Bicycle Kick</h5>
-                <p class="card-text">The poster of the logo I created for use on SOFC club t-shirts.</p>
-              <a href="./media/bicycle.jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/Hold the Helix small.png" class="card-img-top" alt="Helix img">
-            <div class="card-body  text-light">
-                <h5 class="card-title">Hold the Helix</h5>
-                <p class="card-text">An oldie but a goodie. A photo manipulation on a picture of myself from years ago.</p>
-              <a href="./media/Hold the Helix small.png" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-md-6 col-lg-4 pb-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./media/SOFC 2011.jpg" class="card-img-top" alt="SOFC Logo 2011">
-            <div class="card-body  text-light">
-                <h5 class="card-title">SOFC Logo (2011)</h5>
-                <p class="card-text">My second logo for SOFC. It was printed on our second run of club t-shirts.</p>
-              <a href="./media/SOFC 2011.jpg" class="btn text-light btn-color">View</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- </div> -->
 
       <div class="text-center p-4">
-        <p>In the future: I will have updated art projects and I am hoping to link to some software development projects I have completed and or worked on as well.</p>
+        <p>I will be updating with newer projects periodically. I will also be adding a Software Development work on the site as well.</p>
       </div>
 
     </div>
 
     <!-- ===== Begin Footer ===== -->
-    <footer class="page-footer font-small navbar-dark gallery pt-4">    
+    <footer class="page-footer font-small navbar-dark gallery pt-2">    
         <!-- Footer Elements -->
         <div class="container">
+          <h5 class="text-center text-light pb-1">You Can Find Me On:</h5>
             <!-- Social buttons -->
             <ul class="list-unstyled list-inline text-center text-light">
                 <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/chris-polishak-7a281417/" class="btn-floating btn-fb mx-1 text-light">
+                <a href="https://www.linkedin.com/in/chris-polishak-7a281417/" class="btn-floating btn-fb mx-1 text-light">Linked
                     <i class="fab fa-linkedin fa-3x"></i>
-                  </a>
+                    
+                </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://www.github.com/cpolishak" class="btn-floating btn-fb mx-1 text-light">
-                    <i class="fab fa-github fa-3x"></a></i>
+                    <a href="https://www.github.com/cpolishak" class="btn-floating btn-fb mx-1 text-light">Github
+                      <i class="fab fa-github fa-3x foottxt"></a></i>
                   </a>
                 </li>
-                <!-- <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
-                    <i class="fab fa-behance-square"></i>
-                </a>
-                </li> -->
+                
             </ul>
         </div>
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 text-light">© 2019 Copyright:
-          <a href="#" >Chris Polishak</a>
+        <div class="footer-copyright text-center py-1 text-light">© 2019 Copyright: Chris Polishak
         </div>
     </footer>
     
@@ -236,6 +138,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
         <script src="app.js" async defer></script>
     </body>
 </html>
