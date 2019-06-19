@@ -1,20 +1,4 @@
-// $(document).ready(function(){
-//     $(".fancybox").fancybox({
-//           openEffect: "none",
-//           closeEffect: "none"
-//       });
-      
-//       $(".zoom").hover(function(){
-          
-//           $(this).addClass('transition');
-//       }, function(){
-          
-//           $(this).removeClass('transition');
-//       });
-//   });
-
-
-
+// For gallery/modal/lightbox on gallery page //
 function openModal() {
     document.getElementById("myModal").style.display = "block";
   }
@@ -52,9 +36,7 @@ function openModal() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
   
-
-
-
+// For rotating image display of photos //
 var images = [
     "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg", "/media/macanitas.jpg"
 ];
