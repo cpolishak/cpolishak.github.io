@@ -52,10 +52,12 @@ a {
 /* Sizing & such for profile pic on About page */
 .profile_pic {
     max-width: 80vw;
+    border-radius: 50%;
 }
 
 .zigzag {
-   max-width: 50vw; 
+   max-width: 50vw;
+    
 }
 
 /* For skills/proficiencies learned during bootcamp on About page */
