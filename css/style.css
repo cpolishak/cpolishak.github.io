@@ -1,3 +1,18 @@
+.navbar {
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Swanky and Moo Moo', cursive; */
+  /* font-family: 'Teko', sans-serif; */
+  font-family: 'Kanit', sans-serif;
+}
+
+#bodytxt {
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Swanky and Moo Moo', cursive; */
+  /* font-family: 'Teko', sans-serif; */
+  font-family: 'Kanit', sans-serif;
+}
+
+
 /* For images in posts on index page */
 #posts img {
     max-width: 400px;
@@ -176,11 +191,11 @@ body {
     position: absolute;
     top: 300px;
     width: auto;
-    padding: 16px;
+    padding: 10px;
     margin-top: -50px;
-    color: red;
+    color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -260,7 +275,13 @@ footer a {
   width: 100vw;
 }
 
+.contactmetxt {
+  font-family: 'Swanky and Moo Moo', cursive;
+}
 
+.txtsize {
+  font-size: 1.1em;
+}
 
 /* For body on all pages */
 body {
