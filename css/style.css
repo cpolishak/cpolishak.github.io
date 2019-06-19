@@ -47,9 +47,10 @@ a {
 }
 
 
-/* Info about me  */
+/* About me  */
 .about {
     font-size: 1.15em;
+    
 }
 
 /* Sizing & such for profile pic on About page */
@@ -132,6 +133,7 @@ body {
     background-color: rgb(0, 0, 0);
     margin: auto;
     padding: 0;
+    top: 10%;
     width: 90%;
     max-width: 1200px;
   }
@@ -141,7 +143,7 @@ body {
     color: white;
     position: absolute;
     top: 100px;
-    right: 25px;
+    right: 20px;
     font-size: 45px;
     font-weight: bold;
   }
@@ -265,9 +267,6 @@ body {
     font-size: 1.25em;
 }
 
-/* For styles on gallery pics */
-/* .card-img-top {
-    width: 100%;
-    height: 30vw;
-    object-fit: cover;
-} */
+.footer-copyright {
+  font-size: .75em
+}
