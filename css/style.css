@@ -28,12 +28,15 @@
     text-transform: uppercase; 
 }
 
-/* My logo inside of the navbar */
+/* Navbar */
 .navbar img {
     max-width: 60px;
     margin-right: 30px;
     margin-left: 30px;
 }
+
+
+
 
 .indexbg {
     background-color: rgb(37, 83, 80)
