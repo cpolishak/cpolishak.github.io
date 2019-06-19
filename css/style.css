@@ -62,11 +62,10 @@ a {
 }
 
 
-/* About me  */
-.about {
-    font-size: 1.15em;
-    
-}
+/* About page font size */
+/* .about {
+    font-size: 1.10em;
+} */
 
 /* Sizing & such for profile pic on About page */
 .profile_pic {
@@ -256,11 +255,11 @@ body {
 
 /* Contact Page */
 .contact-bg {
-    background-color: rgb(95, 38, 95);
+    background-color: rgb(80, 12, 80);
 }
 
 .icons-color {
-    color: rgb(201, 6, 175);
+    color: rgb(155, 23, 137);
 }
 
 
