@@ -275,12 +275,9 @@ footer a {
 }
 
 .contactmetxt {
-  font-family: 'Swanky and Moo Moo', cursive;
+font-family: 'Kanit', sans-serif;
 }
 
-.txtsize {
-  font-size: 1.1em;
-}
 
 /* For body on all pages */
 body {
