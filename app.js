@@ -1,3 +1,32 @@
+// For rotating image display of photos //
+
+var images = [
+  "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg", "/media/macanitas.jpg"
+];
+
+var i = 0;
+var img = document.getElementById('macanitas');
+
+function changeImg() {
+  img.src = images[i];
+
+  if(i < images.length - 1) {
+      i++;
+  } else {
+      i = 0;
+  }
+  console.log(i);
+}
+
+setInterval(changeImg, 5000);
+
+function stopChg() {
+  // make this do a pause on an image when clicked. 
+  // when released it will allow the images to keep changing at each interval.
+}
+
+
+
 // For gallery/modal/lightbox on gallery page //
 function openModal() {
     document.getElementById("myModal").style.display = "block";
@@ -36,30 +65,6 @@ function openModal() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
   
-// For rotating image display of photos //
-var images = [
-    "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg", "/media/macanitas.jpg"
-];
 
-var i = 0;
-var img = document.getElementById('macanitas');
-
-function changeImg() {
-    img.src = images[i];
-
-    if(i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-    console.log(i);
-}
-
-setInterval(changeImg, 5000);
-
-function stopChg() {
-    // make this do a pause on an image when clicked. 
-    // when released it will allow the images to keep changing at each interval.
-}
 
 
