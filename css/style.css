@@ -70,7 +70,7 @@ a {
 /* Sizing & such for profile pic on About page */
 .profile_pic {
     max-width: 80vw;
-    border-radius: 50%;
+    border-radius: 8%;
 }
 
 .zigzag {
@@ -176,6 +176,7 @@ body {
 
   .mySlides img {
     max-width: 50vw;
+    
   }
 
   
