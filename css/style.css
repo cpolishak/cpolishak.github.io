@@ -3,6 +3,7 @@
   /* font-family: 'Swanky and Moo Moo', cursive; */
   /* font-family: 'Teko', sans-serif; */
   font-family: 'Kanit', sans-serif;
+  font-size: 0.90em;
 }
 
 #bodytxt {
@@ -10,6 +11,7 @@
   /* font-family: 'Swanky and Moo Moo', cursive; */
   /* font-family: 'Teko', sans-serif; */
   font-family: 'Kanit', sans-serif;
+  font-size: 1em;
 }
 
 
@@ -18,11 +20,11 @@
     max-width: 400px;
 }
 
-/* For Portugal picture in vineyards on index page */
+/* For Portugal picture in vineyards on gallery page */
 .macanitas {
     width: 98.5vw;
     max-width: 2000px;
-    max-height: 75vh;
+    max-height: 100vh;
     height: 100%;
     align-content: center
 }
@@ -45,7 +47,7 @@
 
 /* Navbar */
 .navbar img {
-    max-width: 50px;
+    max-width: 40px;
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -100,6 +102,15 @@ a {
 
 .btn-color {
     background-color: rgb(37, 83, 80)
+}
+
+.carousel-item {
+  max-height: 100vh;
+}
+
+.photos {
+  border: 1px solid rgb(187, 187, 187);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 /* ****  Gallery pictures and lightbox **** */
