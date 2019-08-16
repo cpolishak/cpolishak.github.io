@@ -20,7 +20,7 @@
     max-width: 400px;
 }
 
-/* For Portugal picture in vineyards on gallery page */
+/* For Portugal picture in gallery as well as for the background on index page  */
 .macanitas {
     width: 98.5vw;
     max-width: 2000px;
@@ -60,7 +60,7 @@
 }
 
 a {
-    color: rgb(240, 141, 141)
+    color: rgb(177, 14, 14)
 }
 
 
@@ -85,6 +85,7 @@ a {
     list-style: none;
 }
 .skills li:nth-child(odd) {
+    /* background-image: url('../media/aboutbg.jpg'); */
     background-color: rgb(102, 142, 165);
     color: white;
 }
@@ -93,7 +94,21 @@ a {
     background-color: rgb(5, 87, 119)
 }
 
+.me {
+  background-image: url('../media/aboutbg.jpg');
+}
 
+.me2 {
+  background-image: url('../media/aboutbg2.jpg');
+  
+}
+
+/* .aboutbg {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+
+} */
 
 /* Gallery Page */
 .gallery {
