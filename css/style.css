@@ -115,6 +115,10 @@ a {
     background-color: rgb(40, 48, 119)
 }
 
+.gallerybg {
+  background-image: url('../media/gallerybg.png');
+}
+
 .btn-color {
     background-color: rgb(37, 83, 80)
 }
