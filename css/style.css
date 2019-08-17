@@ -76,8 +76,11 @@ a {
 }
 
 .zigzag {
-   max-width: 50vw;
-    
+   max-width: 50vw;   
+}
+
+.logos {
+  max-width: 50vw;
 }
 
 /* For skills/proficiencies learned during bootcamp on About page */
