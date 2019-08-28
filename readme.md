@@ -1,5 +1,7 @@
 # Welcome to my portfolio website!
 
+![screenshot](https://github.com/cpolishak/cpolishak.github.io/tree/master/media/cpolishak.png)
+
 I created this site from the ground up using bootstrap, html, css as well as javascript and hosted it on Github. It will serve as my digital portfolio for Full Stack Development as a quick reference to see some of the things that I can do, am working on and to showcase some of my personal artwork and digital media. To see my site go to https://cpolishak.github.io/  or just click [here](https://cpolishak.github.io/ )
 
 ## 
