@@ -113,6 +113,14 @@ a {
 
 } */
 
+
+/* Development Page */
+.developmentbg {
+  background-color: rgb(219, 68, 68)
+}
+
+
+
 /* Gallery Page */
 .gallery {
     background-color: rgb(40, 48, 119)
