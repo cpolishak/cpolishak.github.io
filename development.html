@@ -42,107 +42,102 @@
     </head>
 
     <body id="bodytxt">
-        <!-- ===== Begin Body ===== -->
+    <!-- ===== Begin Body ===== -->
+    <div class="container-fluid">
 
-        <div class="jumbotron jumbotron-fluid ">
-            <div class="container text-center py-3 mt-3">
+        <div class="row">
+            <div class="col jumbotron jumbotron-fluid bg-dark text-light text-center">
                 <h1>Software Development Projects</h1>
-                <p>Here are some projects I've done and am working on to showcase my abilities as a software engineer. As
-                    mentioned in my about page, I work in Javascript utilizing NodeJS, ReactJS, EJS and mongo primarily for
-                    building apps and sites. I will be adding more apps/projects as I continue honing my development skills. But these will serve as at least a baseline of some proficiency.</p>
+                <p>Here are some projects that I have done and others I am working on to showcase my abilities as a software engineer.</p> 
+                <p>As mentioned in my about page, I work in Javascript utilizing NodeJS, ReactJS, EJS and mongo primarily for building apps and sites. I will be adding more apps/projects as I continue honing my development skills. But these will serve as at least a baseline of some proficiency.
+                </p>
             </div>     
         </div>
 
-        <div class="container-fluid gallerybg">
-            
-            <div class="row py-4">
-                <div class="container  text-center">
-                    <h2>React Youtube page</h2>
+        
+        <div class="row py-5 px-5">
+            <div class="col-12">
+                <div class="container jumbotron py-1">
+                    <h2 class="text-center">React Youtube APP</h2>
+                </div>
+            </div>
+            <div class="col-4 text-center">
                     <p>This app is built using React and uitilizes Axios to make calls to the Youtube API. This app was also a great way to learn to deal with state and how to handle it. 
                     </p>
-                </div>
-                <div class="card mx-auto my-4" style="width: 75rem;">
-                    <img src="./media/ReactYoutube.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-secondary text-center">
-                        <p class="card-text">The app can do a search and will get the top 5 results returned based on that criteria. You can watch videos in the preview window or open them on other pages as well.  
-                        </p>
-                        <p class="font-weight-bold">** See video below for demonstration ** </p>
-                    </div>
-                </div> 
-                <div class="container">
-                    <video width="100%" controls>
-                        <source src="./media/YoutubeReactApp_EDIT.mp4" type="video/mp4">
-                        <source src="mov_bbb.ogg" type="video/ogg">
-                        Your browser does not support HTML5 video.
-                    </video>
-                </div>
+                    <img src="./media/ReactYoutube.png" class="preview py-3" alt="...">
+                    <p class="font-weight-bold"> See it in action >>>></p>
             </div>
-
-
-            <div class="row developmentbg py-4 my-4">
-                <div class="container text-center">
-                    <h2>React Pictures Search App</h2>
-                    <p>This app </p>
-                </div>
-                    <div class="card mx-auto my-4" style="width: 75rem;">
-                        <img src="./media/picsapp.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <p class="card-text ">The app will return up to 10 results of whatever you search.  
-                            </p>
-                            <p class="font-weight-bold">** See video below for demonstration ** </p>
-                        </div>
-                    </div>
-                    <div class="container">
-                            <video width="100%" controls>
-                                <source src="./media/PicsReactApp_EDIT.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                Your browser does not support HTML5 video.
-                            </video>
-                        </div>
-                </div>
+            <div class="col-8 align-self-center">
+                <video width="100%" controls>
+                    <source src="./media/YoutubeReactApp_EDIT.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
-
-        
-            <div class="row py-4">
-                <div class="container text-center">
-                    <h2>A Simple React Todo App</h2>
-                    <p>This is a simple react app for a todo list for creating new todos and allowing you to delete those that are completed.</p>
-                </div>
-                <div class="card mx-auto my-4" style="width: 75rem;">
-                    <img src="./media/TodoApp.png" class="card-img-top" alt="...">
-            
-                    <div class="card-body bg-secondary text-center">
-                        <p class="card-text">This app allows you to create and delete todos. Note: this one was not tied to a DB.</p>
-                        <p class="font-weight-bold">** See video below for demonstration ** </p>
-                    </div>
-                </div>
-                <div class="container">
-                    <video width="100%" controls>
-                        <source src="./media/TodoReactApp1_EDIT.mp4" type="video/mp4">
-                        <source src="mov_bbb.ogg" type="video/ogg">
-                        Your browser does not support HTML5 video.
-                    </video>
-                </div>
-            </div>
-
-            <div class="row developmentbg mb-4">
-                <div class="container text-center py-3 my-5 text-light">
-                    <div>
-                        <h2>Donut Shop Node/EJS basic Page - Deployed on Heroku</h2>
-                        <p>This is a very basic webpage built using Node, express and EJS. Click the picture to use the app live
-                            in heroku. (And you can disregard the ridiculous wording. I was being a goof.)</p>
-                        <p class="mb-5">** Click the picture below to test the page in Heroku. Note: the input box doesn't save any data. **</p>
-                        <a class="mx-auto" href="https://obscure-reaches-24924.herokuapp.com/" target="_blank"><img
-                                src="./media/DonutShop.png" style="width: 75%;" alt="Donut Shop"></a>
-                    </div>
-                </div>
-            </div>
-        
-            
-        
-            
-        
         </div>
+
+
+        <div class="row developmentbg pb-5 pt-4 px-5">
+            <div class="col-12 mt-5">
+                <div class="container jumbotron text-danger py-1">
+                    <h2 class="text-center">React Pictures Search App</h2>
+                </div>
+            </div>
+            <div class="col-8 align-self-center">
+                <video width="100%" controls>
+                    <source src="./media/PicsReactApp_EDIT.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+            <div class=" col-4 ">
+                <p>This app will search through Unsplash.com and returns up to 10 results of whatever you search. It utilizes state, async await, params and Unsplash's API. 
+                </p>
+                <img src="./media/picsapp.png" class="card-img-top py-3" alt="...">
+                <p class="font-weight-bold"> <<<< See it in action</p>
+            </div>
+        </div>
+
+        <div class="row py-5 px-5">
+            <div class="col-12">
+                <div class="container jumbotron py-1">
+                    <h2 class="text-center">React Todo App</h2>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                    <p>This is a simple react app for a todo list for creating new todos and allowing you to delete those that are completed.</p>
+                    <img src="./media/TodoApp.png" class="card-img-top" alt="...">                <p class="font-weight-bold"> See it in action >>>></p>
+            </div>
+            <div class="col-8 align-self-center">
+                <video width="100%" controls>
+                    <source src="./media/TodoReactApp1_EDIT.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+        <div class="row developmentbg pb-5 pt-4 px-5">
+            <div class="col-12 mt-5">
+                <div class="container jumbotron text-danger py-1">
+                    <h2 class="text-center">Deployed EJS Simple Webpage</h2>
+                </div>
+            </div>
+            <div class="col-8">
+                <a href="https://obscure-reaches-24924.herokuapp.com/" target="_blank"><img
+                    src="./media/DonutShop.png" style="width: 100%;" alt="Donut Shop">
+                </a>   
+            </div>
+            <div class="col-4 ">
+                <p>This is a very basic webpage built using Node, express and EJS. Click the picture to use the app live
+                    in heroku. (And you can disregard the ridiculous wording. I was being a goof.)</p>
+                <p class="font-weight-bold">
+                    <<<< See it in action</p> 
+            </div> 
+        </div>
+
+    </div>
+    
 
     <!-- ===== Begin Footer ===== -->
     <footer class="page-footer font-small navbar-dark developmentbg pt-2">    
