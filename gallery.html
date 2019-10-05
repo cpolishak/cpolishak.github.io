@@ -46,7 +46,13 @@
     <!-- ===== Begin Body ===== -->
     <div class="container-fluid gallerybg">
 
-      
+        <div class="row">
+            <div class="col jumbotron jumbotron-fluid bg-dark text-light text-center">
+                <h1>Design / Art Gallery</h1>
+                <p>Here is a collection of selected works I have done in graphic design as well as some of my personal photography.
+                </p> 
+            </div>     
+        </div>
           
 
       <!-- This was previous working pictures autoslider -->
@@ -62,24 +68,94 @@
       
 
 
-      <div class="container text-center p-4">
-        <h2>Graphic Design Gallery</h2>
-        <p>Here's a short gallery of some of my latest works in graphic design. I will look to have some references to software development projects in the future. For now, those can be seen on my <a href="https://www.github.com/cpolishak" target="_blank">Github</a> page (under projects repository).</p>
+      <div class="container text-center py-2">
+        <div class="container jumbotron">
+            <h2>Graphic Design Works</h2>
+            <p>Here's a short gallery of some of my latest works in graphic design. I will look to have some references to software development projects in the future. For now, those can be seen on my <a href="https://www.github.com/cpolishak" target="_blank">Github</a> page (under projects repository).</p>
+            <p>I will be updating with more projects periodically</p>
+        </div>
       </div>
 
       <!-- Begin Gallery/Modal/Lightbox -->
-      <div class="row px-4">
-        <div class="column">
-          <img src="./media/Product Image.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      <div class="row px-5 pt-2 pb-5">
+        <div class="column card " style="width: 25rem;">
+            <h5 class="text-center pt-3">Veins Shoes</h5>
+            <hr>
+          <img src="./media/Product Image.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(1)" class="card-img-top hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">My latest design submitted for a contest on Threadless. 
+            </p>
+          </div>
         </div>
-        <div class="column">
-          <img src="./media/bicycle.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        <div class="column card" style="width: 25rem;">
+            <h5 class="text-center pt-3">Spanish Oaks Crest</h5>
+            <hr>
+          <img src="./media/sofc2012.png" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">This was the 2nd version of logos for Spanish Oaks Football Club.
+            </p>
+          </div>
         </div>
-        <div class="column">
-          <img src="./media/Dynamo Phone Background.jpg" style="max-width:100%; max-height:450px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        <div class="column card" style="width: 25rem">
+            <h5 class="text-center pt-3">SOFC Logo</h5>
+            <hr>
+          <img src="./media/sofc2013.png" style="max-width:100%; max-height:450px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">Spanish Oaks Football Club logo I created for branding as well as a version of tee shirts for the club.
+            </p>
+          </div>
         </div>
-        <div class="column">
-          <img src="./media/mugen.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        <div class="column card" style="width: 25rem;">
+            <h5 class="text-center pt-3">Dynamo Phone Background</h5>
+            <hr>
+          <img src="./media/Dynamo Phone Background.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">I made a wallpaper for my phone's background because I couldn't find one that I liked.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row px-5 pt-1 pb-5">
+        <div class="column card" style="width: 25rem">
+          <h5 class="text-center pt-3">Bicycle Kick Logo</h5>
+          <hr>
+          <img src="./media/bicycle.jpg" style="max-width:100%; max-height:500px" onclick="openModal();currentSlide(5)"
+            class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">Another logo I created for printing on tee shirts for Spanish Oaks Football Club.
+            </p>
+          </div>
+        </div>
+        <div class="column card" style="width: 25rem">
+          <h5 class="text-center pt-3">Helix Manipulation</h5>
+          <hr>
+          <img src="./media/Hold the Helix small.png" style="max-width:100%; max-height:500px"
+            onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">This was a photo manipulation that I did to bring an idea of mine to life.
+            </p>
+          </div>
+        </div>
+        <div class="column card" style="width: 25rem">
+          <h5 class="text-center pt-3">Splash Design</h5>
+          <hr>
+          <img src="./media/DesDev.png" style="max-width:100%; max-height:450px;" onclick="openModal();currentSlide(7)"
+            class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">A design I made for the splash page upon entering the site.
+            </p>
+          </div>
+        </div>
+        <div class="column card" style="width: 25rem">
+          <h5 class="text-center pt-3">Custom Apron Patch</h5>
+          <hr>
+          <img src="./media/Apron-Logo-Design.jpg" style="max-width:100%; max-height:500px"
+            onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+          <div class="card-body">
+            <p class="card-text">I created this design to be branded onto a patch for a custom made apron.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -88,27 +164,51 @@
         <div class="modal-content">
 
           <div class="mySlides">
-            <div class="numbertext">1 / 4</div>
+            <div class="numbertext">1 / 8</div>
             <img src="./media/Product Image.jpg" style="max-width:100%; max-height:70vh">
             <p class="text-center text-white">Veins Shoes</p>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">2 / 4</div>
-            <img src="./media/bicycle.jpg" style="max-width:100%; max-height:70vh">
-            <p class="text-center text-white">Bicycle Kick Design for SOFC</p>
+            <div class="numbertext">2 / 8</div>
+            <img src="./media/sofc2012w.png" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Spanish Oaks Crest</p>
           </div>
 
           <div class="mySlides">
-            <div class="numbertext">3 / 4</div>
-            <img src="./media/Dynamo Phone Background.jpg" style="max-width:100%; max-height:70vh">
-            <p class="text-center text-white">Dynamo Phone Background</p>
+            <div class="numbertext">3 / 8</div>
+            <img src="./media/sofc2013.png" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">SOFC Logo</p>
           </div>
           
           <div class="mySlides">
-            <div class="numbertext">4 / 4</div>
-            <img src="./media/mugen.jpg" style="max-width:100%; max-height:70vh">
-            <p class="text-center text-white">Mugen Shoes</p>
+            <div class="numbertext">4 / 8</div>
+            <img src="./media/Dynamo Phone Background.jpg" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Dynamo Phone Background</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 8</div>
+            <img src="./media/bicycle.jpg" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Veins Shoes</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 8</div>
+            <img src="./media/Hold the Helix small.png" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Helix Manipulation</p>
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">7 / 8</div>
+            <img src="./media/DesDev.png" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Splash Design</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 8</div>
+            <img src="./media/Apron-Logo-Design.jpg" style="max-width:100%; max-height:70vh">
+            <p class="text-center text-white">Apron Logo</p>
           </div>
           
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -122,22 +222,18 @@
         </div>
       </div>
 
-      
-      <div class="text-center py-4">
-        <p>I will be updating with newer projects periodically. I will also be adding a Software Development work on the site as well.</p>
-      </div>
-
       <hr></hr>
 
       <div class="container-fluid pt-4">
-        <div class="container text-center">
+        <div class="container jumbotron text-center">
           <h2>Photography</h2>
           <p>I also do some digital photography. I love being able to capture some of those moments in a photo that words just
-            can't describe.</p>
+            can't describe.
+          </p>
         </div>
       
         <!-- Photos Carousel -->
-        <div class="bd-example photos p-3">
+        <div class="bd-example photos p-3 mx-5">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
