@@ -20,11 +20,11 @@
     max-width: 400px;
 }
 
-/* For Portugal picture in gallery as well as for the background on index page  */
-.macanitas {
-    width: 98.5vw;
+/* For background on index page  */
+.splash {
+    width: 97.5vw;
     max-width: 2000px;
-    max-height: 100vh;
+    max-height: 85vh;
     height: 100%;
     align-content: center
 }
@@ -318,7 +318,7 @@ footer a {
     style: none;
 }
 
-.contactme {
+.fixedbottom {
   position: absolute;
   bottom: 0;
   width: 100vw;
