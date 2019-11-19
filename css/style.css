@@ -23,10 +23,6 @@
 
 /* === Index Page === */
 
-/* For images in posts on index page */
-#posts img {
-    max-width: 400px;
-}
 
 /* For background on index page  */
 .splash {
@@ -34,12 +30,14 @@
     max-width: 2000px;
     max-height: 85vh;
     height: 100%;
-    align-content: center
+    align-content: center;
+    vertical-align: middle;
 }
 
 .bg_pic {
     position: relative;
     text-align: center;
+    vertical-align: middle;
 }
 
 /* For the text over the top of index page */
@@ -59,8 +57,6 @@
     margin-right: 30px;
     margin-left: 30px;
 }
-
-
 
 
 .indexbg {
@@ -142,11 +138,11 @@ a {
 /* === Contact Page === */
 
 .contact-bg {
-    background-color: rgb(116, 28, 28);
+    background-color: rgb(11, 18, 82);
 }
 
 .icons-color {
-    color: rgb(199, 54, 54);
+    color: rgb(21, 50, 146);
 }
 
 
