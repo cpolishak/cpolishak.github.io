@@ -138,6 +138,11 @@ a {
     font-size: 1.10em;
 } */
 
+#aboutwaves {
+  background-image: url("../media/waves.jpeg");
+  background-size: cover;
+}
+
 /* Sizing & such for profile pic on About page */
 .profile_pic {
     max-width: 80vw;
@@ -197,7 +202,10 @@ a {
   width: 100%;
 }
 
-
+#whitewaves {
+  background-image: url("../media/whitewaves.jpeg");
+  background-size: cover;
+}
 
 /* === Contact Page === */
 
