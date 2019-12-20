@@ -89,14 +89,87 @@ nav.fill ul li a:hover:after {
 
 
 /* For background on index page  */
-.splash {
+/* .splash {
     width: 97.5vw;
     max-width: 2000px;
     max-height: 85vh;
     height: 100%;
     align-content: center;
-    vertical-align: middle;
+    vertical-align: middle;    
+} */
+
+/* .snow {
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+  vertical-align: middle;
+  position: fixed;
+  padding: 0;
+  background-size: cover;
+} */
+
+.intro {
+  /* background-image: url(/media/space.jpeg); */
+  background-image: url(/media/suitEffects.jpg);
+  background-size: cover;
+  height: 100vh;
+  vertical-align: auto;
 }
+
+.introword1 {
+  display: hidden;
+  font-size: 2.5em;
+}
+
+.introword2 {
+  display: hidden;
+  font-size: 2.5em;
+}
+
+/* Fade in effect for text on index page */
+#words {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 4s;
+  -moz-animation: fadein 4s; /* Firefox */
+  -webkit-animation: fadein 4s; /* Safari and Chrome */
+  -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
 
 .bg_pic {
     position: relative;
@@ -124,7 +197,8 @@ nav.fill ul li a:hover:after {
 
 
 .indexbg {
-    background-color: rgb(37, 83, 80)
+    /* background-color: rgb(37, 83, 80) */
+    background-color: rgb(15, 15, 15);
 }
 
 a {
@@ -139,7 +213,7 @@ a {
 } */
 
 #aboutwaves {
-  background-image: url("../media/waves.jpeg");
+  background-image: url("../media/blueYarn.jpeg");
   background-size: cover;
 }
 
@@ -159,16 +233,6 @@ a {
 
 .logos {
   max-width: 50vw;
-}
-
-/* For skills/proficiencies learned during bootcamp on About page */
-.skills {
-    list-style: none;
-}
-.skills li:nth-child(odd) {
-    /* background-image: url('../media/aboutbg.jpg'); */
-    background-color: rgb(102, 142, 165);
-    color: white;
 }
 
 .about-bg {
@@ -195,26 +259,31 @@ a {
 /* === Development Page === */
 
 .developmentbg {
-  background-color: rgb(80, 12, 80)
+  background-color: rgb(11, 18, 82);
 }
 
 .preview {
   width: 100%;
 }
 
+.dropshadow {
+  box-shadow: 0 10px 25px #161616;
+}
+
 #whitewaves {
   background-image: url("../media/whitewaves.jpeg");
   background-size: cover;
+  /* opacity: 0.8; */
 }
 
 /* === Contact Page === */
 
 .contact-bg {
-    background-color: rgb(11, 18, 82);
+  background-color: rgb(80, 12, 80)
 }
 
 .icons-color {
-    color: rgb(21, 50, 146);
+    color: rgb(100, 21, 146);
 }
 
 
