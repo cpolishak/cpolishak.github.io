@@ -117,12 +117,16 @@ nav.fill ul li a:hover:after {
 }
 
 .introword1 {
-  display: hidden;
+  position: fixed;
+  top: 20%;
+  left: 8%;
   font-size: 2.5em;
 }
 
 .introword2 {
-  display: hidden;
+  position: fixed;
+  top: 30%;
+  left: 8%;
   font-size: 2.5em;
 }
 
@@ -131,10 +135,10 @@ nav.fill ul li a:hover:after {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
-  animation: fadein 4s;
-  -moz-animation: fadein 4s; /* Firefox */
-  -webkit-animation: fadein 4s; /* Safari and Chrome */
-  -o-animation: fadein 4s; /* Opera */
+  animation: fadein 7s;
+  -moz-animation: fadein 7s; /* Firefox */
+  -webkit-animation: fadein 7s; /* Safari and Chrome */
+  -o-animation: fadein 7s; /* Opera */
 }
 @keyframes fadein {
   from {
@@ -169,24 +173,6 @@ nav.fill ul li a:hover:after {
   }
 }
 
-
-
-.bg_pic {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
-
-/* For the text over the top of index page */
-.index_head {
-    /* position: absolute; */
-    top: 50px;
-    left: 0;
-    width: 100%;
-    font-size: 2em;
-    text-align: center;
-    text-transform: uppercase; 
-}
 
 /* Navbar */
 .navbar img {
