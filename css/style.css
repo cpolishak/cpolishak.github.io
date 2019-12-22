@@ -257,7 +257,7 @@ a {
 }
 
 #whitewaves {
-  background-image: url("../media/whitewaves.jpeg");
+  background-image: url("../media/jellies.jpeg");
   background-size: cover;
   /* opacity: 0.8; */
 }
@@ -265,11 +265,16 @@ a {
 /* === Contact Page === */
 
 .contact-bg {
-  background-color: rgb(80, 12, 80)
+  background-color: rgb(95, 9, 69)
 }
 
 .icons-color {
-    color: rgb(100, 21, 146);
+    color: rgb(146, 21, 109);
+}
+
+#contact {
+  background-image: url("../media/purple.jpeg");
+  background-size: cover;
 }
 
 
