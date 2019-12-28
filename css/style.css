@@ -17,6 +17,7 @@ nav.stroke ul li a,
 nav.fill ul li a {
   position: relative;
 }
+
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
   position: absolute;
@@ -84,32 +85,14 @@ nav.fill ul li a:hover:after {
 }
 
 
-
 /* === Index Page === */
-
-
 /* For background on index page  */
-/* .splash {
-    width: 97.5vw;
-    max-width: 2000px;
-    max-height: 85vh;
-    height: 100%;
-    align-content: center;
-    vertical-align: middle;    
-} */
 
-/* .snow {
-  width: 100vw;
-  height: 100vh;
-  align-content: center;
-  vertical-align: middle;
-  position: fixed;
-  padding: 0;
-  background-size: cover;
-} */
+.introbg {
+  background-color: black;
+}
 
 .intro {
-  /* background-image: url(/media/space.jpeg); */
   background-image: url(/media/suitEffects.jpg);
   background-size: cover;
   height: 100vh;
@@ -131,7 +114,7 @@ nav.fill ul li a:hover:after {
 }
 
 /* Fade in effect for text on index page */
-#words {
+.words {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
