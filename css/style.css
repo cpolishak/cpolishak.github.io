@@ -3,6 +3,10 @@
   p {font-size:1.2rem;} /*1rem = 16px*/
 }
 
+@media (max-width: 992px) { 
+  p {font-size:1rem;} /*1rem = 16px*/
+}
+
 @media (min-width: 768px) {
   .profile_pic {
     width: 30vw;
@@ -102,14 +106,15 @@ nav.fill ul li a:hover:after {
 /* For background on index page  */
 
 .introbg {
-  background-color: black;
+  background-color: rgb(61, 61, 63);
 }
 
 .vanish {
-  float: right;
+  
 }
 
 .first {
+  float: right;
   height: 90vh;
   position: relative;
   top: 10vh;
@@ -122,10 +127,11 @@ nav.fill ul li a:hover:after {
 }
 
 .magictime.slideRight {
-  -webkit-animation-duration: 8s;
-  animation-duration: 7s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
 
+/* Sizing of fonts on intro */
 .hello {
   font-size: 5vw; 
   line-height: 0.8em;
@@ -138,6 +144,7 @@ nav.fill ul li a:hover:after {
 }
 
 .polishak {
+  color: #161616;
   font-size: 6vw;
   font-weight: 900;
   line-height: 1em;
@@ -147,7 +154,6 @@ nav.fill ul li a:hover:after {
   font-size: 4vw;
   line-height: 1em;
 }
-
 
 .slideRight {
   float: left;
@@ -159,6 +165,20 @@ nav.fill ul li a:hover:after {
 }
 
 
+.socialIcons {
+  position: fixed;
+  top: 15vh;
+  left: 0;
+}
+
+.linkedIn {
+  background-color: rgb(9, 138, 5);
+}
+
+.gitHub {
+  background-color: rgb(35, 50, 99);
+}
+
 /* Navbar */
 .navbar img {
     max-width: 40px;
@@ -166,14 +186,13 @@ nav.fill ul li a:hover:after {
     margin-left: 30px;
 }
 
-
 .indexbg {
     /* background-color: rgb(37, 83, 80) */
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(55, 55, 56);
 }
 
 a {
-    color: rgb(177, 14, 14)
+    color: rgb(46, 159, 252);
 }
 
 
@@ -194,7 +213,7 @@ a {
     border-radius: 8%;
 }
 
-.zigzag {
+.gdpics {
    max-width: 50vw;   
 }
 
@@ -210,27 +229,17 @@ a {
     background-color: rgb(5, 87, 119)
 }
 
-/* .me {
-  background-image: url('../media/aboutbg.jpg');
-} */
 
 .me2 {
   background-image: url('../media/aboutbg2.jpg');
   
 }
 
-/* .aboutbg {
-  position: absolute;
-  height: 10%;
-  width: 100%;
-
-} */
-
 
 /* === Development Page === */
 
 .developmentbg {
-  background-color: rgb(11, 18, 82);
+  background-color: rgb(30, 48, 87);
 }
 
 .preview {
@@ -247,10 +256,39 @@ a {
   /* opacity: 0.8; */
 }
 
+/* effects for scroll in slider stuff */
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+
 /* === Contact Page === */
 
 .contact-bg {
-  background-color: rgb(95, 9, 69)
+  background-color: rgb(94, 25, 73)
 }
 
 .icons-color {
