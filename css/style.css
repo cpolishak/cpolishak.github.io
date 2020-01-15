@@ -3,6 +3,13 @@
   p {font-size:1.2rem;} /*1rem = 16px*/
 }
 
+@media (min-width: 768px) {
+  .profile_pic {
+    width: 30vw;
+    
+  }
+}
+
 /* === Navbar and styling for it === */
 .navbar {
   /* font-family: 'Oswald', sans-serif; */
@@ -98,68 +105,57 @@ nav.fill ul li a:hover:after {
   background-color: black;
 }
 
-.intro {
-  background-image: url(/media/suitEffects.jpg);
-  background-size: cover;
-  height: 100vh;
-  vertical-align: auto;
+.vanish {
+  float: right;
 }
 
-.introword1 {
-  position: fixed;
-  top: 20%;
-  left: 8%;
-  font-size: 2.5em;
+.first {
+  height: 90vh;
+  position: relative;
+  top: 10vh;
 }
 
-.introword2 {
-  position: fixed;
-  top: 30%;
-  left: 8%;
-  font-size: 2.5em;
+/* For magic.css effects */
+.magictime {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
-/* Fade in effect for text on index page */
-.words {
-  margin-top: 25px;
-  font-size: 21px;
-  text-align: center;
-  animation: fadein 5s;
-  -moz-animation: fadein 5s; /* Firefox */
-  -webkit-animation: fadein 5s; /* Safari and Chrome */
-  -o-animation: fadein 5s; /* Opera */
+.magictime.slideRight {
+  -webkit-animation-duration: 8s;
+  animation-duration: 7s;
 }
-@keyframes fadein {
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
+
+.hello {
+  font-size: 5vw; 
+  line-height: 0.8em;
 }
-@-moz-keyframes fadein { /* Firefox */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
+
+.chris {
+  font-size: 10vw;
+  font-weight: 900;
+  line-height: 1em;
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
+
+.polishak {
+  font-size: 6vw;
+  font-weight: 900;
+  line-height: 1em;
 }
-@-o-keyframes fadein { /* Opera */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity: 1;
-  }
+
+.iAm {
+  font-size: 4vw;
+  line-height: 1em;
+}
+
+
+.slideRight {
+  float: left;
+
+}
+
+.lowerIntro {
+  background-color: ivory;
 }
 
 

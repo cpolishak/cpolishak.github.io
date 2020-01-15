@@ -1,70 +1,52 @@
-// // For rotating image display of photos //
+// Magic.css effects
+const vanish = document.querySelector('.vanish');
+vanish.classList.add('magictime', 'vanishIn');
 
-// var images = [
-//   "/media/flowers1.jpg", "/media/glass.jpg", "/media/vizcarra.jpg", "/media/macanitas.jpg"
-// ];
+// add a function to this to make it happen on scrolling down
+const slideRight = document.querySelector('.slideRight');
+slideRight.classList.add('magictime', 'tinLeftIn');
 
-// var i = 0;
-// var img = document.getElementById('macanitas');
 
-// function changeImg() {
-//   img.src = images[i];
 
-//   if(i < images.length - 1) {
-//       i++;
-//   } else {
-//       i = 0;
-//   }
-//   console.log(i);
+// function debounce(func, wait = 20, immediate = true) {
+//     var timeout;
+//     return function () {
+//         var context = this, args = arguments;
+//         var later = function () {
+//             timeout = null;
+//             if (!immediate) func.apply(context, args);
+//         };
+//         var callNow = immediate && !timeout;
+//         clearTimeout(timeout);
+//         timeout = setTimeout(later, wait);
+//         if (callNow) func.apply(context, args);
+//     };
 // }
 
-// setInterval(changeImg, 5000);
+// // const sliderImages = document.querySelectorAll('.slide-in');
 
-// function stopChg() {
-//   // make this do a pause on an image when clicked. 
-//   // when released it will allow the images to keep changing at each interval.
+// const slideRight = document.querySelector('.slideRight');
+// slideRight.classList.add('magictime', 'tinLeftIn');
+
+// function checkSlide(e) {
+//     slideRight(sliderImage => {
+//         // to specify the slide in at half of the image showing on screen
+//         const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+//         const imageBottom = sliderImage.offsetTop + sliderImage.height;
+//         const isHalfShown = slideInAt > sliderImage.offsetTop;
+//         const isNotScrolledPast = window.scrollY < imageBottom;
+
+//         if (isHalfShown && isNotScrolledPast) {
+//             sliderImage.classList.add('active');
+//         } else {
+//             sliderImage.classList.remove('active');
+//         }
+//         console.log(isHalfShown)
+//     })
 // }
 
+// window.addEventListener('scroll', debounce(checkSlide));
 
 
-// // For gallery/modal/lightbox on gallery page //
-// function openModal() {
-//     document.getElementById("myModal").style.display = "block";
-//   }
-  
-//   function closeModal() {
-//     document.getElementById("myModal").style.display = "none";
-//   }
-  
-//   var slideIndex = 1;
-//   showSlides(slideIndex);
-  
-//   function plusSlides(n) {
-//     showSlides(slideIndex += n);
-//   }
-  
-//   function currentSlide(n) {
-//     showSlides(slideIndex = n);
-//   }
-  
-//   function showSlides(n) {
-//     var i;
-//     var slides = document.getElementsByClassName("mySlides");
-//     var dots = document.getElementsByClassName("demo");
-//     var captionText = document.getElementById("caption");
-//     if (n > slides.length) {slideIndex = 1}
-//     if (n < 1) {slideIndex = slides.length}
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";
-//     }
-//     for (i = 0; i < dots.length; i++) {
-//         dots[i].className = dots[i].className.replace(" active", "");
-//     }
-//     slides[slideIndex-1].style.display = "block";
-//     dots[slideIndex-1].className += " active";
-//     captionText.innerHTML = dots[slideIndex-1].alt;
-//   }
-  
-
-
+    
 
