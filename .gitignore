@@ -9,6 +9,7 @@
 /coverage
 
 # production
+deployNotes
 
 # misc
 .DS_Store
