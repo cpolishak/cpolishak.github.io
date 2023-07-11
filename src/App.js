@@ -23,10 +23,10 @@ function App() {
         <div className='row bg-light'>
           <div class="col-12 col-sm-6">
             <h3 class="justify-content-lg-center align-items-center text-center px-4 pt-3 pb-2">A bit about myself</h3>
-            <p class="justify-content-lg-center align-items-center text-center px-4 py-1">I have over 2 years of professional experience as a back-end software engineer working to help create, maintain and update microservices built with NodeJS and Javascript for Fintech companies. I am focused on improving myself to become a well rounded full stack engineer and enjoy projects utilizing both front and back-end development. My soft skills are top notch from working over 10 years in outside sales prior to becoming a developer. I am especially proud of my ability to work independently or collaboratively as part of a team and I am an excellent communicator. I also have proficiency in graphic design to create digital media utilizing Adobe Photoshop and Illustrator.
+            <p class="justify-content-lg-center align-items-center text-center px-4 py-1">I have over 3 years of professional experience as a software engineer. Currently, I am a Full Stack developer working with internal and external Tools applications. I work in Ruby and Ruby on Rails for back-end services in tandem with JavaScript, React and TypeScript for the front-end. Previously, I worked for 2 years to help create, maintain and update microservices built with NodeJS and JavaScript for Fintech companies. My soft skills are top notch from working over 10 years in outside sales prior to becoming a software engineer. I am especially proud of my ability to work independently or collaboratively as part of a team and I am an excellent communicator. I also have proficiency in graphic design to create digital media, logos, branding and more utilizing Adobe Photoshop and Illustrator.
             </p>
             <p class="justify-content-lg-center align-items-center text-center px-4 py-2">
-              My primary focus is to become an excellent all-around software engineer. I work daily to learn new things, practice problem solving with code, and challenging myself with things I have never done. I enjoy working on websites, applications and projects with a focus on technologies including Node, Javascript, React, MongoDB, Bootstrap and other intriguing software/services like Docker, Azure, and more. My favorite motto is "you miss 100% of the shots you don't take". I try new things and fail. But like Spiderman, no matter how many hits I take, I always find a way to come back. I am a girl dad, a dog dad, a home brewer, an artist and a true soccer fanatic.
+              My primary focus is to become an excellent all-around software engineer. I work daily to learn new things, practice problem solving with code, and challenging myself with things I have never done. I enjoy working on websites, applications and projects with a focus on technologies including NodeJS, JavaScript, React, Ruby, Ruby on Rails, TypeScript, MongoDB, Bootstrap and other modern software/services like Docker, Azure DevOps, and more. My favorite motto is "you miss 100% of the shots that you don't take". I try new things and fail. But like Spiderman, no matter how many hits I take, I always find a way to get back up. I am a proud girl dad, a dog dad, a husband, a home brewer, an artist and a true soccer fanatic.
             </p>
           </div>
           {/* Technologies */}
@@ -45,8 +45,8 @@ function App() {
                     <i class="fab fa-node fa-3x"></i>
                   </div>
                   <div className='col-4'>
-                    <p>Git/Github</p>
-                    <i class="fab fa-git-alt fa-3x"></i>
+                    <p>React</p>
+                    <i class="fab fa-react fa-3x"></i>
                   </div>
                 </div>
               </div>
@@ -54,16 +54,33 @@ function App() {
               <div className='col-12'>
                 <div className='row text-center py-4'>
                   <div className='col-4'>
-                    <p>React</p>
-                    <i class="fab fa-react fa-3x"></i>
+                    <p>Ruby</p>
+                    <i class="fa fa-gem fa-3x"></i>
                   </div>
                   <div className='col-4'>
-                    <p>Jira</p>
-                    <i class="fab fa-jira fa-3x"></i>
+                    <p>Ruby on Rails</p>
+                    <i class="far fa-gem fa-3x"></i>
                   </div>
                   <div className='col-4'>
-                    <p>Bootstrap</p>
-                    <i class="fab fa-bootstrap fa-3x"></i>
+                    <p>Azure DevOps</p>
+                    <i class="fab fa-connectdevelop fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div className='col-12'>
+                <div className='row text-center py-4'>
+                  <div className='col-4'>
+                    <p>Git/Github</p>
+                    <i class="fab fa-git-alt fa-3x"></i>
+                  </div>
+                  <div className='col-4'>
+                    <p>Photoshop</p>
+                    <i class="fa fa-pencil-alt fa-3x"></i>
+                  </div>
+                  <div className='col-4'>
+                    <p>Illustrator</p>
+                    <i class="fa fa-bezier-curve fa-3x"></i>                  
                   </div>
                 </div>
               </div>
