@@ -37,7 +37,7 @@ function App() {
         <div className='row py-4 pb-5 text-light'>
           <div class="col-12">
             <div class="col-12 text-center mx-auto">
-              <h3 class="py-4 pb-sm-2">Technologies</h3>
+              <h3>Technologies</h3>
               <hr className='col-4 bg-light'></hr>
               <div className='col-12'>
                 <div className='row text-center py-4'>
