@@ -21,14 +21,18 @@ function App() {
 
         {/* About */}
         <div className='row bg-light pt-4 pb-2'>
-          <div class="col-12">
+          <div class="col-12 px-4">
             {/* What I do */}
             <h3>What I do</h3>
             <hr className='col-4'></hr>
-            <p class="justify-content-lg-center align-items-center text-center px-4 py-1">Currently, I have over 4 years of professional experience as a software engineer in banking SaaS. I am a Full Stack developer working with internal and external Tools applications. In our primary app, I utilize Ruby/Ruby on Rails for back-end services in tandem with JavaScript, React and TypeScript for the front-end. In another app, I use NodeJS for back-end along with React/JS on the front-end. Previously, I worked for 2 years to help create, maintain and update back-end microservices built with NodeJS and JavaScript for Fintech companies. For the last year, I have also been serving as Scrum Master to feature teams in addition to my SE duties. This has helped me to understand the interaction between product and engineering on a much deeper level. In those duties, I facilitate scrum activities, help drive PI planning epics, lead discussions, improve processes and work cross-functionally to unblock impediments/reduce risk and help deliver on commitments. I am especially proud of my ability to work independently or collaboratively as part of a team and I am an excellent communicator. My primary focus is to become an excellent all-around software engineer and leader.
-            </p>
-            <p>I also have strong aspirations to work in the future as a Sales/Solutions/Implementations Engineer where I can mesh my love for software engineering with my people skills to provide value, solve complex problems and help support amazing software products. I believe that my skills and strengths align perfectly with this type of role. Have a chat with me sometime and you'll see why.
-            </p>
+            <p>I am a talented and tenacious full-stack software engineer with over 4 years of professional experience building internal tools and microservices in banking SaaS. I am comfortable in both back-end and front-end development. I have strong people skills in addition to previous experience in sales that really set me apart from your average software developer. I am an avid note taker, I like writing up docs and I enjoy things like relating technical aspects to the non-technical crowd. I strive to be a great communicator, a strong independent/team contributor, a confident leader and to be an all-around badass software engineer.</p>
+            <div className='col-10 mx-auto text-left pb-4'>
+              <li >4+ years experience coding in JavaScript and 2+ years experience working with Typescript</li>
+              <li>Full Stack Development - 2+ years utilizing Ruby/Rails or NodeJS for back-end in tandem with JS, TS and React on the front-end for Admin Console and Content Management System applications</li>
+              <li>NodeJS Development - 2+ years in building, maintaining and securing back-end microservices for banking features built in NodeJS integrating with distributed systems and third-party apps through APIs</li>
+              <li>Scrum Master - facilitating scrum activities, helping with PI planning and ART sync, leading discussions, improving processes and working cross-functionally to unblock impediments/reduce risk and helping to deliver on commitments</li>
+              <li>Azure AI experience - I have formal training in generative AI fundamentals and in Open AI Studio provisioning custom generative AI models, defining parameters and more</li>
+            </div>
             <br></br>
           </div>
         </div>
@@ -77,15 +81,15 @@ function App() {
                 <div className='row text-center py-4'>
                   <div className='col-4'>
                     <p>Azure DevOps</p>
-                    <i class="fab fa-connectdevelop fa-3x"></i>
+                    <i class="fa fa-laptop fa-3x"></i>
+                  </div>
+                  <div className='col-4'>
+                    <p>Generative AI</p>
+                    <i class="fa fa-connectdevelop fa-3x"></i>
                   </div>
                   <div className='col-4'>
                     <p>Photoshop</p>
                     <i class="fa fa-pencil-alt fa-3x"></i>
-                  </div>
-                  <div className='col-4'>
-                    <p>Illustrator</p>
-                    <i class="fa fa-bezier-curve fa-3x"></i>
                   </div>
                 </div>
               </div>
@@ -95,25 +99,22 @@ function App() {
 
         {/* What I bring to the table */}
         <div className='row bg-light pt-4 pb-2'>
-          <div class="col-12">
+          <div class="col-12 px-4">
             <h3>What I bring to the table</h3>
             <hr className='col-4'></hr>
-            <p>As a software engineer: I am a quick study, I have a voracious appetite for learning, a positive and tenacious attitude and I have an investigative mindset with a willingness to get my hands dirty digging into complex issues. I am excellent at writing documentation and taking diligent notes, I have experience in at least 2 programming languages, I am comfortable working back-end or front-end (my preference) and I work great independently and as part of a team. My people and soft skills are top notch from working over 10 years in sales and account management prior to becoming a software engineer. These skills include: strong interpersonal skills, high emotional intelligence, leadership, decision-making, tailored product demonstrations, high touch sales experience, discovery, problem-solving, account management (from mom-and-pop to large chains like Whole Foods), prospecting, qualifying, and of course, closing. </p>
-            <p>I have a passion for art and it will always be a creative outlet for me. As a result of that, I also have proficiency in graphic design with over 15 years of experience with Adobe Photoshop and Illustrator. I love to create works in printed media, digital media, logo design and branding.</p>
+            <p>As a software engineer: I am a quick study, I have a voracious appetite for learning, a positive and tenacious attitude and I have an investigative mindset with a willingness to get my hands dirty digging into complex issues. I am excellent at writing documentation and taking diligent notes, I have experience in at least 2 programming languages, I am comfortable working back-end or front-end (my preference) and I work great independently and as part of a team. My people and soft skills are top notch from working over 10 years in sales and account management prior to becoming a software engineer. These skills include: strong interpersonal skills, high emotional intelligence, leadership, decision-making, tailored product demonstrations, high touch sales experience, discovery, problem-solving, account management (from mom-and-pop to large chains like Whole Foods), prospecting, qualifying, and of course, closing.</p>
+            <p>I have a passion for art and it will always be a creative outlet for me. As a result of that, I also have proficiency in graphic design with over 15 years of experience with Adobe Photoshop and Illustrator. I included some samples below for fun and because websites are just more interesting with some visuals. I love to create works in printed media, digital media, logo design and branding.</p>
             <br></br>
           </div>
         </div>
 
         {/* Who I am */}
         <div className='row text-light py-4'>
-          <div class="col-12">
+          <div class="col-12 px-4">
             <h3>Who I am</h3>
             <hr className='col-4 bg-light'></hr>
-            <p class="justify-content-lg-center align-items-center text-center px-4 py-2">
-              I strive to learn something new every day. I have an achievement personality and a growth mindset. I am always working to improve my skills, setting new goals and challenging myself to meet and exceed them.
-            </p>
-            <p class="justify-content-lg-center align-items-center text-center px-4 py-2">
-              My favorite motto is "you miss 100% of the shots that you don't take". I try new things and fail. But like Spiderman, no matter how many hits I take, I always find a way to get back up. I am a proud girl dad, a dog dad, a husband, a tech nerd, a home brewer, an artist and a true soccer fanatic.
+            <p class="justify-content-lg-center align-items-center text-center py-2">
+              I strive to learn something new every day. I have an achievement personality and a positive attitude. I am always working to improve my skills, setting new goals and challenging myself to meet and exceed them. My favorite motto is "you miss 100% of the shots that you don't take". I try new things and fail. But like Spiderman, no matter how many hits I take, I always find a way to get back up. I am a proud girl dad, a dog dad, a husband, a tech nerd, a home brewer, an artist and a true soccer fanatic.
             </p>
           </div>
         </div>
