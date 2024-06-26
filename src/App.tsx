@@ -227,7 +227,7 @@ function App() {
           <div className="row text-center mx-auto">
             <div className="col-12">
               <h4 className="">Art Samples</h4>
-              <hr className="col-4"></hr>
+              <hr className="col-4 bg-light"></hr>
             </div>
 
             <div className="col-4 pt-5">
