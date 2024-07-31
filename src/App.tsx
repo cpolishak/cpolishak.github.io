@@ -188,13 +188,13 @@ function App() {
         <div className="row pr-3 bg-light py-4">
           <div className="row text-center mx-auto">
             <div className="col-12">
-              <h4 className="bg-light">Coding Projects</h4>
+              <h4 className="bg-light">Coding Apps/Projects</h4>
               <hr className="col-4"></hr>
             </div>
 
             <div className="col-12 pt-2">
               <a
-                href={"https://github.com/cpolishak/url-shortener-app"}
+                href={"https://vercel-url-shortener-omega.vercel.app/"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -209,14 +209,7 @@ function App() {
             <div className="px-4">
               <h4>Url Shortener App</h4>
               <p className="">
-                Custom built application to shorten long urls. This was a
-                passion project to learn how Bitly worked and to create my own
-                application with similar functionality. Currently built with
-                NodeJS back-end, React front-end (Javascript) and uses Material
-                UI. It does already have MongoDB setup in the codebase that can
-                be activated and used as well (if you have mongoDB). Future
-                iterations of the app will include a MongoDB Atlas cluster and
-                live deployment/hosting with Heroku.
+                 A simple custom built application to shorten long urls. This was a passion project to learn how Bitly worked and to create my own application with similar functionality. Currently built with NodeJS back-end, React front-end (Javascript) and uses Material UI. It is deployed via a Vercel Project (<a href="vercel.com">vercel.com</a>). I still need to work out a cloud DB to have it persist when deployed, but this app works in a hacky way in the meantime while I work out the DB issues.
               </p>
             </div>
           </div>
