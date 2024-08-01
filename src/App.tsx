@@ -209,7 +209,7 @@ function App() {
             <div className="px-4">
               <h4>Url Shortener App</h4>
               <p className="">
-                 A simple custom built application to shorten long urls. This was a passion project to learn how Bitly worked and to create my own application with similar functionality. Currently built with NodeJS back-end (JS/Typescript), React front-end (TS) and uses Material UI. It is deployed via a Vercel Project (<a href="vercel.com">vercel.com</a>). I still need to work out a cloud DB to have it persist when deployed, but this app works in a hacky way in the meantime while I work out the DB issues.
+                 A simple custom built application to shorten long urls. This was a passion project to learn how Bitly worked and to create my own application with similar functionality. Currently built with NodeJS back-end (JS), React front-end (TS) and uses Material UI. It is deployed via a Vercel Project (<a href="vercel.com">vercel.com</a>). I still need to work out a cloud DB to have it persist when deployed, but this app works in a hacky way in the meantime while I work out the DB issues.
               </p>
             </div>
           </div>
