@@ -4,6 +4,7 @@ import bicycleW from "./media/bicycleW.png";
 import fc02w from "./media/fc02w.png";
 import zigzag from "./media/zigzag.png";
 import urlShortenerApp from "./media/urlShortenerApp.png";
+import mortgageCalculator from "./media/mortgage-calculator.png";
 import "./App.css";
 
 function App() {
@@ -56,10 +57,10 @@ function App() {
                 through APIs
               </li>
               <li>
-                Scrum Master - facilitating scrum activities, helping with PI
-                planning and ART sync, leading discussions, improving processes
-                and working cross-functionally to unblock impediments/reduce
-                risk and helping to deliver on commitments
+                Scrum Master - Experience facilitating scrum activities, helping
+                with PI planning and ART sync, leading discussions, improving
+                processes and working cross-functionally to unblock
+                impediments/reduce risk and helping to deliver on commitments
               </li>
               <li>
                 Azure AI experience - I have formal training in generative AI
@@ -137,30 +138,33 @@ function App() {
             <h3>What I bring to the table</h3>
             <hr className="col-4"></hr>
             <p>
-              As a software engineer: I am a quick study, I have a voracious
-              appetite for learning, a positive and tenacious attitude and I
-              have an investigative mindset with a willingness to get my hands
-              dirty digging into complex issues. I am excellent at writing
+              Coding Skills: I am a quick study, I have a voracious appetite for
+              learning, a positive and tenacious attitude and I have an
+              investigative mindset with a willingness to get my hands dirty
+              digging into complex issues. I am excellent at writing
               documentation and taking diligent notes, I have experience in at
               least 2 programming languages, I am comfortable working back-end
               or front-end (my preference) and I work great independently and as
-              part of a team. My people and soft skills are top notch from
+              part of a team.
+            </p>
+            <p>
+              Interactive Skills: My people and soft skills are top notch from
               working over 10 years in sales and account management prior to
               becoming a software engineer. These skills include: strong
-              interpersonal skills, high emotional intelligence, leadership,
+              customer-centric mindset, high emotional intelligence, leadership,
               decision-making, tailored product demonstrations, high touch sales
-              experience, discovery, problem-solving, account management (from
+              experience, discovery, issue resolution, account management (from
               mom-and-pop to large chains like Whole Foods), prospecting,
               qualifying, and of course, closing.
             </p>
             <p>
-              I have a passion for art and it will always be a creative outlet
-              for me. As a result of that, I also have proficiency in graphic
-              design with over 15 years of experience with Adobe Photoshop and
-              Illustrator. I included some samples below for fun and because
-              websites are just more interesting with some visuals. I love to
-              create works in printed media, digital media, logo design and
-              branding.
+              Design Skills: I have a passion for art and it will always be a
+              creative outlet for me. As a result of that, I also have
+              proficiency in graphic design with over 15 years of experience
+              with Adobe Photoshop and Illustrator. I included some samples
+              below for fun and because websites are just more interesting with
+              some visuals. I love to create works in printed media, digital
+              media, logo design and branding.
             </p>
             <br></br>
           </div>
@@ -176,9 +180,9 @@ function App() {
               personality and a positive attitude. I am always working to
               improve my skills, setting new goals and challenging myself to
               meet and exceed them. My favorite motto is "you miss 100% of the
-              shots that you don't take". I try new things and fail. But like
-              Spiderman, no matter how many hits I take, I always find a way to
-              get back up. I am a proud girl dad, a dog dad, a husband, a tech
+              shots that you don't take". I try new things and I fail, a lot.
+              But like Spiderman, no matter how many hits I take, I always find
+              a way to get back up. I am a proud girl dad, a husband, a tech
               nerd, a home brewer, an artist and a true soccer fanatic.
             </p>
           </div>
@@ -192,7 +196,38 @@ function App() {
               <hr className="col-4"></hr>
             </div>
 
-            <div className="col-12 pt-2">
+            <div className="col-12 col-md-6 pt-2">
+              <a
+                href={"https://mortgage-calculator-two-omega.vercel.app/"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={mortgageCalculator}
+                  className="pic pb-3"
+                  alt="url-shortener-app-pic"
+                ></img>
+              </a>
+              <div className="px-4">
+                <h4>Mortgage Payment Calculator</h4>
+                <p className="">
+                  This is a basic mortgage payment calculator app built in
+                  TypeScript, React and Material UI with custom stylings added.
+                  This is deployed via a Vercel Project (
+                  <a href="vercel.com">vercel.com</a>). Github repo{" "}
+                  <a
+                    href="https://github.com/cpolishak/mortgage-calculator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 pt-2">
               <a
                 href={"https://vercel-url-shortener-omega.vercel.app/"}
                 target="_blank"
@@ -204,13 +239,26 @@ function App() {
                   alt="url-shortener-app-pic"
                 ></img>
               </a>
-            </div>
-
-            <div className="px-4">
-              <h4>Url Shortener App</h4>
-              <p className="">
-                 A simple custom built application to shorten long urls. This was a passion project to learn how Bitly worked and to create my own application with similar functionality. Currently built with NodeJS back-end (JS), React front-end (TS) and uses Material UI. It is deployed via a Vercel Project (<a href="vercel.com">vercel.com</a>). I still need to work out a cloud DB to have it persist when deployed, but this app works in a hacky way in the meantime while I work out the DB issues.
-              </p>
+              <div className="px-4">
+                <h4>Url Shortener App</h4>
+                <p className="">
+                  A custom built application to shorten long urls. This was a
+                  passion project to learn how Bitly worked and to create my own
+                  application with similar functionality. Currently built with
+                  NodeJS back-end (JS), React front-end (TS) and uses Material
+                  UI. It is deployed via a Vercel Project. It works in a hacky
+                  way while I look for a cloud DB I would like to use. Github
+                  repo{" "}
+                  <a
+                    href="https://github.com/cpolishak/vercel-url-shortener"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
+              </div>
             </div>
           </div>
         </div>
