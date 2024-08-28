@@ -5,6 +5,7 @@ import fc02w from "./media/fc02w.png";
 import zigzag from "./media/zigzag.png";
 import urlShortenerApp from "./media/urlShortenerApp.png";
 import mortgageCalculator from "./media/mortgage-calculator.png";
+import girlDadLife from "./media/girl-dad-site.png";
 import "./App.css";
 
 function App() {
@@ -198,6 +199,48 @@ function App() {
 
             <div className="col-12 col-md-6 pt-2">
               <a
+                href={"https://dad-life-site.vercel.app/"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={girlDadLife}
+                  className="pic pb-3"
+                  alt="girl-dad-life-site-pic"
+                ></img>
+              </a>
+              <div className="px-4">
+                <h4>Girl Dad Life Site</h4>
+                <p className="">
+                  This is a fictional website to celebrate being a girl dad.
+                  It's built in TypeScript, React and Material UI with custom
+                  stylings added. This site utilizes the Material UI Grid and is
+                  fully responsive and optimized for Mobile and Web. I still
+                  have to build out the additional pages (stories, resources,
+                  archives), but for now it's at least a legit looking and
+                  functional main page. This is deployed via a Vercel Project (
+                  <a
+                    href="https://vercel.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    vercel.com
+                  </a>
+                  ). Github repo{" "}
+                  <a
+                    href="https://github.com/cpolishak/dad-life-site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 pt-2">
+              <a
                 href={"https://mortgage-calculator-two-omega.vercel.app/"}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -214,7 +257,14 @@ function App() {
                   This is a basic mortgage payment calculator app built in
                   TypeScript, React and Material UI with custom stylings added.
                   This is deployed via a Vercel Project (
-                  <a href="vercel.com">vercel.com</a>). Github repo{" "}
+                  <a
+                    href="https://vercel.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    vercel.com
+                  </a>
+                  ). Github repo{" "}
                   <a
                     href="https://github.com/cpolishak/mortgage-calculator"
                     target="_blank"
