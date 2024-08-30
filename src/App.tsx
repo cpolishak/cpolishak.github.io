@@ -18,7 +18,7 @@ function App() {
           <h1 className="cpfont1 text-light pb-5">
             Chris <img src={logo} className="logo" alt="bike"></img> Polishak
           </h1>
-          <p className="display-4">I am a software engineer</p>
+          {/* <p className="display-4">I am a software engineer</p> */}
         </div>
 
         <div className="row py-5"></div>
@@ -30,32 +30,35 @@ function App() {
             <h3>What I do</h3>
             <hr className="col-4"></hr>
             <p>
-              I am a talented and tenacious full-stack software engineer with
-              over 4 years of professional experience building internal tools
-              and microservices in banking SaaS. I am comfortable in both
-              back-end and front-end development. I have strong people skills in
-              addition to previous experience in sales that really set me apart
-              from your average software developer. I am an avid note taker, I
-              like writing up docs and I enjoy things like relating technical
-              aspects to the non-technical crowd. I strive to be a great
-              communicator, a strong independent/team contributor, a confident
-              leader and to be an all-around badass software engineer.
+              I am a versatile individual with a unique set of skills, a growth
+              mindset and get-stuff-done attitude. I have 4+ years of
+              professional Software Engineering experience as well as 10 years
+              experience in Account Management/Sales.{" "}
+              <strong>
+                I am excellent working in customer focused and software engineer
+                roles.
+              </strong>{" "}
+              Talk to me for a few minutes and you will understand for yourself!
             </p>
             <div className="col-10 mx-auto text-left pb-4">
               <li>
-                4+ years experience coding in JavaScript and 2+ years experience
-                working with Typescript
-              </li>
-              <li>
                 Full Stack Development - 2+ years utilizing Ruby/Rails or NodeJS
-                for back-end in tandem with JS, TS and React on the front-end
-                for Admin Console and Content Management System applications
+                for back-end in tandem with Javascript, Typescript and React on
+                the front-end for Admin Console and Content Management System
+                applications
               </li>
               <li>
-                NodeJS Development - 2+ years in building, maintaining and
+                NodeJS Development - 2+ years in supporting, maintaining and
                 securing back-end microservices for banking features built in
                 NodeJS integrating with distributed systems and third-party apps
                 through APIs
+              </li>
+              <li>
+                Account Management / Sales - 10 years in building rapport,
+                issues resolution, relationship based selling, communication,
+                managing multiple priorities/deadlines, removing roadblocks,
+                upselling, providing support, customer relations, product
+                demonstrations, increasing retention, closing and more
               </li>
               <li>
                 Scrum Master - Experience facilitating scrum activities, helping
@@ -139,7 +142,7 @@ function App() {
             <h3>What I bring to the table</h3>
             <hr className="col-4"></hr>
             <p>
-              Coding Skills: I am a quick study, I have a voracious appetite for
+              <strong>Software Engineering Skills:</strong> I am a quick study, I have a voracious appetite for
               learning, a positive and tenacious attitude and I have an
               investigative mindset with a willingness to get my hands dirty
               digging into complex issues. I am excellent at writing
@@ -149,7 +152,7 @@ function App() {
               part of a team.
             </p>
             <p>
-              Interactive Skills: My people and soft skills are top notch from
+            <strong>Interpersonal Skills:</strong> My people and soft skills are top notch from
               working over 10 years in sales and account management prior to
               becoming a software engineer. These skills include: strong
               customer-centric mindset, high emotional intelligence, leadership,
@@ -159,7 +162,7 @@ function App() {
               qualifying, and of course, closing.
             </p>
             <p>
-              Design Skills: I have a passion for art and it will always be a
+            <strong>Design Skills:</strong> I have a passion for art and it will always be a
               creative outlet for me. As a result of that, I also have
               proficiency in graphic design with over 15 years of experience
               with Adobe Photoshop and Illustrator. I included some samples
@@ -215,10 +218,7 @@ function App() {
                   This is a fictional website to celebrate being a girl dad.
                   It's built in TypeScript, React and Material UI with custom
                   stylings added. This site utilizes the Material UI Grid and is
-                  fully responsive and optimized for Mobile and Web. I still
-                  have to build out the additional pages (stories, resources,
-                  archives), but for now it's at least a legit looking and
-                  functional main page. This is deployed via a Vercel Project (
+                  fully responsive and optimized for Mobile and Web. The site is in progress and iterations will be made on it moving forward. This is deployed via a Vercel Project (
                   <a
                     href="https://vercel.com/"
                     target="_blank"
