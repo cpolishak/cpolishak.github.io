@@ -3,7 +3,7 @@ import logo from "./media/logo.png";
 import bicycleW from "./media/bicycleW.png";
 import fc02w from "./media/fc02w.png";
 import zigzag from "./media/zigzag.png";
-import urlShortenerApp from "./media/urlShortenerApp.png";
+import urlShortenerApp from "./media/vercel-url-shortener.png";
 import mortgageCalculator from "./media/mortgage-calculator.png";
 import girlDadLife from "./media/girl-dad-site.png";
 import "./App.css";
@@ -296,9 +296,14 @@ function App() {
                   passion project to learn how Bitly worked and to create my own
                   application with similar functionality. Currently built with
                   NodeJS back-end (JS), React front-end (TS) and uses Material
-                  UI. It is deployed via a Vercel Project. It works in a hacky
-                  way while I look for a cloud DB I would like to use. Github
-                  repo{" "}
+                  UI. It is deployed via a Vercel Project and uses <a
+                    href="https://supabase.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Supabase
+                  </a> for 
+                  the DB, enabling users to share the links to be used anywhere. Github repo {" "}
                   <a
                     href="https://github.com/cpolishak/vercel-url-shortener"
                     target="_blank"

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.68f7a9d5.css",
-    "main.js": "/static/js/main.db107def.js",
+    "main.js": "/static/js/main.f17de4bc.js",
     "static/media/girl-dad-site.png": "/static/media/girl-dad-site.6efd1258a4d83a480b75.png",
     "static/media/bicycleW.png": "/static/media/bicycleW.ef0694fa3d524f9eecc0.png",
     "static/media/zigzag.png": "/static/media/zigzag.82e9e8d46ef24276f24a.png",
     "static/media/mortgage-calculator.png": "/static/media/mortgage-calculator.2e4e3c4a95b31acf157a.png",
-    "static/media/urlShortenerApp.png": "/static/media/urlShortenerApp.483b5abe59c7bdb96572.png",
+    "static/media/vercel-url-shortener.png": "/static/media/vercel-url-shortener.8f43d511c97fd2852968.png",
     "static/media/fc02w.png": "/static/media/fc02w.1bebc293a333ebc0ff98.png",
     "index.html": "/index.html",
     "main.68f7a9d5.css.map": "/static/css/main.68f7a9d5.css.map",
-    "main.db107def.js.map": "/static/js/main.db107def.js.map"
+    "main.f17de4bc.js.map": "/static/js/main.f17de4bc.js.map"
   },
   "entrypoints": [
     "static/css/main.68f7a9d5.css",
-    "static/js/main.db107def.js"
+    "static/js/main.f17de4bc.js"
   ]
 }
